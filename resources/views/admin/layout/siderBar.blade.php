@@ -8,13 +8,6 @@
     </div>
     <hr>
     <ul class="app-menu">
-        {{-- <li>
-            <a class="app-menu__item active" href="">
-                <i class="app-menu__icon fa-solid fa-gauge" style="font-size: 22px;"></i>
-                <span class="app-menu__label">Bảng điều khiển</span>
-            </a>
-        </li> --}}
-      
         <li>
             <a class="app-menu__item" href="{{route('admin.country')}}">
                 <i class="app-menu__icon fa-solid fa-list"></i>
@@ -45,32 +38,6 @@
                 <span class="app-menu__label">Manage Company</span>
             </a>
         </li>
-        
-       
-        {{--<li>
-            <a class="app-menu__item" href="{{route('admin.brands')}}">
-                <i class="app-menu__icon fa-solid fa-n"></i>
-                <span class="app-menu__label">Manage Nhãn Hàng</span>
-            </a>
-        </li>
-        <li>
-            <a class="app-menu__item" href="{{route('admin.banners')}}">
-                <i class="app-menu__icon fa-solid fa-b"></i>
-                <span class="app-menu__label">Quản lý Banners</span>
-            </a>
-        </li> --}}
-        {{-- <li>
-            <a class="app-menu__item" href="{{route('admin.comments')}}">
-                <i class="app-menu__icon fa-solid fa-comments"></i>
-                <span class="app-menu__label">Quản lý Comment</span>
-            </a>
-        </li> --}}
-        {{-- <li>
-            <a class="app-menu__item" href="{{route('admin.attribute')}}">
-                <i class="app-menu__icon fa-solid fa-palette"></i>
-                <span class="app-menu__label">Quản lý Thuộc Tính</span>
-            </a>
-        </li> --}}
     </ul>
 </aside>
 <!-- end sidebar -->
